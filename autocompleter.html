@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="pl">
+    <head>
+        <link rel="stylesheet" href="autocompleter.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@900&display=swap">    
+        <link rel="icon" href="google.png">
+        <title>Strona Google</title>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="app">
+            <v-autocompleter :options="cities"></v-autocompleter>
+        </div>
+        <script src="cities.js" defer></script>
+        <script src="autocompleter.js" defer></script>
+        <script src="vue.js" defer></script>
+    </body> 
+</html>
